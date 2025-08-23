@@ -7,35 +7,65 @@
   <meta name="description" content="Earnit rewires your reward system by rewarding you with screen time for completing habits. Stay consistent, stay focused." />
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="icon" href="favicon.ico" />
+  
+  <!-- AOS Animation CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body class="bg-black text-gray-200">
 
-  <!-- Hero Section -->
+  
   <section class="bg-gradient-to-br from-purple-600 to-indigo-700 text-white">
-    <div class="max-w-6xl mx-auto px-6 py-20 text-center">
+<!-- Header Section -->
+    <!-- Header Section -->
+<nav class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+  <a href="index.html" class="flex items-center">
+    <img src="images/YinYangKoiTransparent.png" alt="Earnit Logo" class="h-14 w-auto">
+  </a>
+  <ul class="flex space-x-6">
+    <li><a href="pricing.html" class="hover:underline">Pricing</a></li>
+    <li><a href="features.html" class="hover:underline">Features</a></li>
+    <li><a href="about.html" class="hover:underline">About</a></li>
+    <li><a href="team.html" class="hover:underline">Meet the Team</a></li>
+  </ul>
+</nav>
+
+    <!-- Hero Section -->
+    <div class="max-w-6xl mx-auto px-6 py-20 text-center" data-aos="fade-up">
       <h1 class="text-4xl md:text-6xl font-bold mb-6">Earnit</h1>
       <p class="text-lg md:text-xl mb-8">Build better habits. Rewire your Reward System.</p>
-      <a href="#" class="inline-block bg-white text-gray-900 font-semibold px-6 py-3 rounded-full shadow hover:bg-gray-100">
-        Download on the App Store
-      </a>
+      <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" 
+             alt="Download on the App Store" class="h-12 mx-auto hover:scale-105 transition-transform" />
     </div>
   </section>
 
+   <!-- About Section -->
+   <section class="max-w-4xl mx-auto px-6 py-16 text-center rounded-lg" data-aos="fade-up">
+    <h2 class="text-3xl font-bold mb-1 text-white">What Makes Earnit Special?</h2>
+    <p class="text-lg text-gray-300 mb-8">
+      Earnit changes the way you interact with your phone. Other habit trackers reward you with
+      phony animations. Other screen time blockers punish you for using your phone. We combine
+      the two using the power of positive reinforcement and reward you with screen time for accomplishing your habits.
+    </p>
+  </section>
+
+
   <!-- Features Section -->
   <section class="max-w-6xl mx-auto px-6 py-16 rounded-lg">
-    <h2 class="text-3xl font-bold text-center mb-4 text-white">Why Choose Earnit?</h2>
-    <h3 class="text-lg md:text-xl mb-8 text-center text-gray-300">Don't just limit your screen time. Earnit.</h3>
+    <h2 class="text-3xl font-bold text-center mb-4 text-white" data-aos="fade-up">Why Choose Earnit?</h2>
+    <h3 class="text-lg md:text-xl mb-8 text-center text-gray-300" data-aos="fade-up" data-aos-delay="100">
+      Don't just limit your screen time. Earnit.
+    </h3>
     <div class="grid gap-8 md:grid-cols-3 text-center">
-      <div class="p-6 bg-gray-700 rounded-xl shadow hover:shadow-lg transition">
+      <div class="p-6 bg-gray-700 rounded-xl shadow hover:shadow-lg transition-transform transform hover:scale-105" data-aos="zoom-in">
         <h3 class="font-semibold text-xl mb-2 text-white">Habit Tracking</h3>
         <p class="text-gray-300">Log habits like working out, flossing, and reading then get rewarded for completing them.</p>
       </div>
-      <div class="p-6 bg-gray-700 rounded-xl shadow hover:shadow-lg transition">
+      <div class="p-6 bg-gray-700 rounded-xl shadow hover:shadow-lg transition-transform transform hover:scale-105" data-aos="zoom-in" data-aos-delay="100">
         <h3 class="font-semibold text-xl mb-2 text-white">Focus Sessions</h3>
         <p class="text-gray-300">Focus on what's important in life. Whether it's a morning dopamine detox or a late night study session, earn time for focusing.</p>
       </div>
-      <div class="p-6 bg-gray-700 rounded-xl shadow hover:shadow-lg transition">
-        <h3 class="font-semibold text-xl mb-2 text-white">Customizable</h3>
+      <div class="p-6 bg-gray-700 rounded-xl shadow hover:shadow-lg transition-transform transform hover:scale-105" data-aos="zoom-in" data-aos-delay="200">
+        <h3 class="font-semibold text-xl mb-2 text-white">Limit Apps</h3>
         <p class="text-gray-300">Pick the apps you want to block. You're in full control.</p>
       </div>
     </div>
@@ -44,36 +74,108 @@
   <!-- Screenshots Section -->
   <section class="py-16">
     <div class="max-w-6xl mx-auto px-6 text-center">
-      <h2 class="text-3xl font-bold mb-8 text-white">App Screenshots</h2>
-      <div class="grid gap-6 md:grid-cols-3">
-        <img src="images/habits.png" alt="habits screenshot" class="rounded-xl shadow" />
-        <img src="images/usage.png" alt="usage screenshot" class="rounded-xl shadow" />
-        <img src="images/blocked.png" alt="blocked screenshot" class="rounded-xl shadow" />
+      <h2 class="text-3xl font-bold mb-8 text-white" data-aos="fade-up">App Screenshots</h2>
+      <div class="grid gap-6 md:grid-cols-4">
+        <img src="images/habits2.png" alt="habits screenshot" class="rounded-xl shadow transition-transform transform hover:scale-105" data-aos="fade-up">
+        <img src="images/focus2.png" alt="habits screenshot" class="rounded-xl shadow transition-transform transform hover:scale-105" data-aos="fade-up">
+        <img src="images/usage2.png" alt="usage screenshot" class="rounded-xl shadow transition-transform transform hover:scale-105" data-aos="fade-up" data-aos-delay="100">
+        <img src="images/shield2.png" alt="blocked screenshot" class="rounded-xl shadow transition-transform transform hover:scale-105" data-aos="fade-up" data-aos-delay="200">
       </div>
     </div>
   </section>
 
-  <!-- About Section -->
-  <section class="max-w-4xl mx-auto px-6 py-16 text-center rounded-lg">
-    <h2 class="text-3xl font-bold mb-4 text-white">About Earnit</h2>
-    <p class="text-lg text-gray-300">
-      Earnit changes the way you interact with your phone. Other habit trackers reward you with
-      phony animations. Other screen time blockers punish you for using your phone. We combine
-      the two: rewarding you with screen time for accomplishing your habits.
+ <!-- Pricing Section -->
+ <section class="bg-black text-gray-200 py-16">
+  <div class="max-w-6xl mx-auto px-6">
+    <h2 class="text-4xl font-bold text-center mb-4 text-white">Pricing</h2>
+    <p class="text-center text-gray-400 mb-12">
+      Simple plans to start building better habits today.
     </p>
-  </section>
 
-  <!-- Footer -->
-  <footer class="bg-gradient-to-br from-purple-600 to-indigo-700 py-8">
-    <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
-      <p>© 2025 Faspero. All rights reserved.</p>
-      <div class="flex gap-4 mt-4 md:mt-0">
-        <a href="#" class="hover:text-white">Twitter</a>
-        <a href="#" class="hover:text-white">Instagram</a>
-        <a href="#" class="hover:text-white">Contact</a>
+    <div class="grid gap-8 md:grid-cols-4">
+      
+      <!-- Free Plan -->
+      <div class="bg-gray-800 rounded-2xl shadow-lg p-8 flex flex-col" data-aos="fade-up">
+        <h3 class="text-2xl font-bold text-white mb-4">Free</h3>
+        <p class="text-gray-400 mb-6">Get started at no cost with core features.</p>
+        <ul class="space-y-3 mb-8 text-gray-300">
+          <li class="flex items-start"><span class="text-purple-500 mr-2">✔</span> Create and track habits</li>
+          <li class="flex items-start"><span class="text-purple-500 mr-2">✔</span> Track your streaks</li>
+          <li class="flex items-start"><span class="text-purple-500 mr-2">✔</span> Focus Sessions</li>
+          <li class="flex items-start"><span class="text-purple-500 mr-2">✔</span> Block the Apps that distract you</li>
+        </ul>
       </div>
+
+      <!-- Lifetime Plan -->
+      <div class="relative bg-gradient-to-br from-purple-700 to-indigo-800 rounded-2xl shadow-lg p-8 flex flex-col text-white transform scale-105" data-aos="fade-up" data-aos-delay="100">
+        <span class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-yellow-400 text-black text-sm font-bold px-4 py-1 rounded-full shadow-lg">
+          Most Popular
+        </span>
+        <h3 class="text-2xl font-bold mb-4">Lifetime Purchase</h3>
+        <p class="text-gray-100 mb-6">
+          Save big — <span class="text-white font-bold">$99.99 one time fee</span>.
+        </p>
+        <ul class="space-y-3 mb-8 text-gray-100">
+          <li class="flex items-start"><span class="text-white mr-2">✔</span> One Time fee</li>
+          <li class="flex items-start"><span class="text-white mr-2">✔</span> Everything free has to offer</li>
+          <li class="flex items-start"><span class="text-white mr-2">✔</span> Hard Mode</li>
+          <li class="flex items-start"><span class="text-white mr-2">✔</span> Widget</li>
+        </ul>
+      </div>
+
+      <!-- Monthly Plan -->
+      <div class="bg-gradient-to-br from-purple-600 to-indigo-700 rounded-2xl shadow-lg p-8 flex flex-col text-white" data-aos="fade-up" data-aos-delay="200">
+        <h3 class="text-2xl font-bold mb-4">Monthly Subscription</h3>
+        <p class="text-gray-100 mb-6">
+          Unlock premium tools for just <span class="text-white font-bold">$2.99/month</span>.
+        </p>
+        <ul class="space-y-3 mb-8 text-gray-100">
+          <li class="flex items-start"><span class="text-white mr-2">✔</span> Monthly fee, cancel anytime</li>
+          <li class="flex items-start"><span class="text-white mr-2">✔</span> Everything free has to offer</li>
+          <li class="flex items-start"><span class="text-white mr-2">✔</span> Hard Mode</li>
+          <li class="flex items-start"><span class="text-white mr-2">✔</span> Widget</li>
+        </ul>
+      </div>
+
+       <!-- Yearly Plan -->
+       <div class="bg-gradient-to-br from-purple-600 to-indigo-700 rounded-2xl shadow-lg p-8 flex flex-col text-white" data-aos="fade-up" data-aos-delay="200">
+          <span class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-yellow-400 text-black text-sm font-bold px-4 py-1 rounded-full shadow-lg">
+              19% off
+            </span>
+          <h3 class="text-2xl font-bold mb-4">Monthly Subscription</h3>
+          <p class="text-gray-100 mb-6">
+            Unlock premium tools for just <span class="text-white font-bold">$29.99/year</span>.
+          </p>
+          <ul class="space-y-3 mb-8 text-gray-100">
+            <li class="flex items-start"><span class="text-white mr-2">✔</span> Yearly fee, cancel anytime</li>
+            <li class="flex items-start"><span class="text-white mr-2">✔</span> Everything free has to offer</li>
+            <li class="flex items-start"><span class="text-white mr-2">✔</span> Hard Mode</li>
+            <li class="flex items-start"><span class="text-white mr-2">✔</span> Widget</li>
+          </ul>
+        </div>
+
     </div>
-  </footer>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gradient-to-br from-purple-600 to-indigo-700 py-8" data-aos="fade-up">
+  <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
+    <p>© 2025 Faspero. All rights reserved.</p>
+    <div class="flex gap-4 mt-4 md:mt-0">
+      <a href="mailto:support@faspero.com" class="hover:text-white">support@faspero.com</a>
+    </div>
+  </div>
+</footer>
+
+  <!-- AOS Animation JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      once: true
+    });
+  </script>
 
 </body>
 </html>
